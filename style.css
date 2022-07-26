@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid gray;
+}
+.calculator{
+    display: inline-block;
+}
+.calculator-body{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 20px;
+    background:rgb(255, 217, 26);
+    border-radius: 20px;
+}
+.screen{
+    text-align: right;
+}
+table{
+    margin: auto;
+}
+input{
+    height: 45px;
+    width: 256px;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #0a520a;
+    border-radius: 16px;
+}
+button {
+    font-size: 23px;
+    height: 50px;
+    width: 64px;
+    background-color: rgb(101, 217, 232);
+    border-radius: 20px;
+}
+button:hover{
+    background-color: gainsboro;
+}
