@@ -8,45 +8,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
     <div class="container">
         <div class="Calculator">
          <div class="calculator-body">
-            <form action="" name="form">
-                <input type="text" placeholder="0"  class="screen" id="screen">
+            <form action="#" name="form">
+                <input type="text" value="" class="screen" id="myresult">
             <table>
                 <tr>
-                    <td><button>C</button></td>
-                    <td><button>(</button></td>
-                    <td><button>)</button></td>
-                    <td><button>%</button></td>
+                    <td><button value="C" onclick="deleteMe()">C</button></td>
+                    <td><button value="(" onclick='calculate("(")'>(</button></td>
+                    <td><button value=")" onclick='calculate(")")'>)</button></td>
+                    <td><button value="%" onclick='calculate("%")'>%</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>x</button></td>
+                    <td><button value="7" onclick='calculate("7")'>7</button></td>
+                    <td><button value="8" onclick='calculate("8")'>8</button></td>
+                    <td><button value="9" onclick='calculate("9")'>9</button></td>
+                    <td><button value="*" onclick='calculate("*")'>x</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>-</button></td>
+                    <td><button value="4" onclick='calculate("4")'>4</button></td>
+                    <td><button value="5" onclick='calculate("5")'>5</button></td>
+                    <td><button value="6" onclick='calculate("6")'>6</button></td>
+                    <td><button value="-" onclick='calculate("-")'>-</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>+</button></td>
+                    <td><button value="1" onclick='calculate("1")'>1</button></td>
+                    <td><button value="2" onclick='calculate("2")'>2</button></td>
+                    <td><button value="3" onclick='calculate("3")'>3</button></td>
+                    <td><button value="+" onclick='calculate("+")'>+</button></td>
                 </tr>
                 <tr>
-                    <td><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button>/</button></td>
-                    <td><button>=</button></td>
+                    <td><button value="0" onclick='calculate("0")'>0</button></td>
+                    <td><button value="." onclick='calculate(".")'>.</button></td>
+                    <td><button value="/" onclick='calculate("/")'>/</button></td>
+                    <td><button value="=" onclick="myResult()">=</button></td>
                 </tr>
             </table>
             </form>
+            &copy;2022| Omar Faruk
          </div>
     </div>
     </div>

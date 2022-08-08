@@ -1,7 +1,6 @@
 .container{
     text-align: center;
     margin-top: 25px;
-    border: 2px solid gray;
 }
 .calculator{
     display: inline-block;
